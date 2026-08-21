@@ -1,0 +1,8 @@
+# Set environment variables
+export PG_HOST=localhost
+export PG_DATABASE=nimbustech
+export PG_USER=postgres
+export PG_PASSWORD=your_password
+
+# Run rollback (confirmation required)
+python rollback_v2_to_v1.py

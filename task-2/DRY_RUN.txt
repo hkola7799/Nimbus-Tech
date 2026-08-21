@@ -1,0 +1,9 @@
+## Dry_run_commands
+
+python migrate_v1_to_v2.py
+
+python migrate_v1_to_v2.py
+
+# One-liner with all environment variables
+PG_HOST=localhost PG_DATABASE=nimbustech PG_USER=postgres PG_PASSWORD=secret \
+  python migrate_v1_to_v2.py
