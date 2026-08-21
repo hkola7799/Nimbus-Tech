@@ -1,0 +1,8 @@
+# Set environment variables
+export PG_HOST=localhost
+export PG_DATABASE=nimbustech
+export PG_USER=postgres
+export PG_PASSWORD=your_password
+
+# Run migration
+python migrate_v1_to_v2.py
